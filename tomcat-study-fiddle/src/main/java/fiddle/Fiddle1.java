@@ -4,6 +4,7 @@ import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.security.InvalidKeyException;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
@@ -46,7 +47,7 @@ public class Fiddle1 {
 		b.setAuthorityKeyIdentifier(new byte[] { 0 });
 		b.setNotBefore(time(2018, Calendar.JANUARY, 1, 0, 0, 0));
 		b.setNotAfter(time(2018, Calendar.DECEMBER, 31, 23, 59, 59));
-		b.setSerial(1);
+		b.setSerial(BigInteger.valueOf(1));
 		b.getExtKeyUsages().add(OIDS.CLIENT_AUTH);
 		b.getExtKeyUsages().add(OIDS.SERVER_AUTH);
 		b.addSubjectAlternativeNameExtension("DNS", "localhost");

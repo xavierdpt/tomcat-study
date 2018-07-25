@@ -13,8 +13,6 @@
 	</properties>
 	<modules>
 		<module>tomcat9</module>
-		<module>tomcat8</module>
-		<module>tomcat7</module>
-		<module>fiddle</module>
+		<module>tomcat-study-fiddle</module>
 	</modules>
 </project>
