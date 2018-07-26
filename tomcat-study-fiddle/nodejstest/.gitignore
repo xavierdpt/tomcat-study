@@ -3,3 +3,4 @@
 /server_cert.pem
 /server_key.pem
 /package-lock.json
+/server.p12

@@ -7,11 +7,11 @@
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
-
+ 
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>Everything</web-resource-name>
-			<url-pattern>/*</url-pattern>
+			<url-pattern>/protected/*</url-pattern>
 		</web-resource-collection>
 		<auth-constraint>
 			<role-name>secureconn</role-name>
@@ -20,7 +20,7 @@
 
 	<login-config>
 		<auth-method>CLIENT-CERT</auth-method>
-		<!-- <realm-name>Demo App</realm-name> -->
+		<realm-name>Demo App</realm-name>
 	</login-config>
 
 	<security-role>
