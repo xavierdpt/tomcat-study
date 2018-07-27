@@ -14,5 +14,8 @@
 	<modules>
 		<module>tomcat9</module>
 		<module>tomcat-study-fiddle</module>
+		<module>writer-outputstream</module>
+		<module>tomcat-manager</module>
+		<module>tomcat8-basic-auth</module>
 	</modules>
 </project>
