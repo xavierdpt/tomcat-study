@@ -24,11 +24,5 @@ public class HelloWorldServlet extends HttpServlet {
 		if (p != null) {
 			w.print(p.getName());
 		}
-		req.login("user", "user");
-		w.println(req.getAuthType());
-		p = req.getUserPrincipal();
-		if (p != null) {
-			w.print(p.getName());
-		}
 	}
 }
