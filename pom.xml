@@ -17,5 +17,6 @@
 		<module>writer-outputstream</module>
 		<module>tomcat-manager</module>
 		<module>tomcat8-basic-auth</module>
+		<module>tomcat8-basic-auth-confidential</module>
 	</modules>
 </project>

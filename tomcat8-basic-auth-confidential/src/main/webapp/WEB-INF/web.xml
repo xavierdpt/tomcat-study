@@ -18,7 +18,7 @@
 		</auth-constraint>
 		<user-data-constraint>
 			<!-- CONFIDENTIAL, INTEGRAL, or NONE -->
-			<transport-guarantee>NONE</transport-guarantee>
+			<transport-guarantee>INTEGRAL</transport-guarantee>
 		</user-data-constraint>
 	</security-constraint>
 	<security-role>
